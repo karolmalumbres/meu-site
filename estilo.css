@@ -1,0 +1,96 @@
+*{
+	margin:0;/*zerando margens e preenchimentos da página*/
+	padding:0;
+}
+
+body{
+	background-color:black;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	margin:50px;/*inserindo margin de 50px em volta da página principal*/
+}
+
+#cabecalho {
+	text-align:center;/*alinhando a logo do cabeçalho da página*/
+	padding-bottom:10px;/*preenchimento embaixo da logo*/
+}
+p{
+	max-width: 355px;
+}
+
+#sn {
+	color:white;
+	max-width: 355px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+	
+}
+
+section{
+    max-width: 200px;
+    margin: 0 auto;
+    background-color:white;
+    margin-bottom: 24px; 
+    font-size: 18px;
+    color: black;
+    border-radius:30px;/*arredondando as bordas do botão*/
+}
+
+.button {/*criamos uma classe para formatar a tag button*/
+	background-color:white;/*cor de fundo*/
+	border:500px  ;/*tiramos a borda do botão*/
+	border-radius:35px;/*arredondamos o botão*/
+	font-size:18px;/*aumentou o tamanho da fonte do botão*/
+	color:black;/*alterou a cor da fonte do botão*/
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+	padding: 8px 16px;
+	box-shadow: 0 0 15px 1px #F8FF6A, 
+            	0 0 15px 3px #DFA819,
+				0 0 15px 5px red;
+			
+	
+}
+
+.button:hover{/*quando passar o mouse sobre o botão*/
+	background-color:#b0b0b1;/*trocar a cor de fundo para cinza escuro*/
+}
+
+a{
+	color:black;/*alterando a cor da letra dos hiperlinks*/
+	text-decoration:none;/*retirando o sublinhado dos hiperlinks*/
+}
+
+.alinhar {
+	margin-left:24px;
+}
+.alinhar1 {
+	margin-left:63px;
+}
+.alinhar2 {
+	margin-left:79px;
+}
+
+#rodape{
+	align:center;
+	background-color:black;/*inserindo cor de fundo no rodapé*/
+	color:white;/*transformando a cor das letras em branco*/
+	display:grid;/*transformar o rodapé em uma grade (tabela)*/
+	grid-template-columns:20% 40%;/*dividindo em 2 colunas*/
+	grid-gap:5%;/*inserindo espaço entre as colunas*/
+	padding:16px 20%;/*preenchimento nos 4 lados do rodapé*/
+	font-size:15px;/*aumentando o tamanho da fonte*/
+    margin: 0 auto;
+}
+#rodape:hover{/*quando passar o mouse sobre o botão*/
+	background-color:#c6823a;/*trocar a cor de fundo para cinza escuro*/
+}
+
+#slider {
+	max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 24px; 
+}
