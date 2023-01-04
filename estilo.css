@@ -82,11 +82,8 @@ a{
 #rodape{
 	background-color:black;/*inserindo cor de fundo no rodapé*/
 	color:white;/*transformando a cor das letras em branco*/
-	display:grid;/*transformar o rodapé em uma grade (tabela)*/
-	grid-template-columns:14% 14%;/*dividindo em 2 colunas*/
-	grid-gap:5%;/*inserindo espaço entre as colunas*/
-	/*preenchimento nos 4 lados do rodapé*/
-	font-size:10px;/*aumentando o tamanho da fonte*/
+	display:flex;
+	font-size:8px;/*aumentando o tamanho da fonte*/
     justify-content: center;
 	align:center;
 }
