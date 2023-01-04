@@ -8,9 +8,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-#container {
-	margin:50px;/*inserindo margin de 50px em volta da página principal*/
-}
+
 
 #cabecalho {
 	text-align:center;/*alinhando a logo do cabeçalho da página*/
@@ -25,6 +23,8 @@ p{
 	max-width: 355px;
 	margin: 0 auto;
 	margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 	
 }
 
@@ -36,6 +36,9 @@ section{
     font-size: 18px;
     color: black;
     border-radius:30px;/*arredondando as bordas do botão*/
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {/*criamos uma classe para formatar a tag button*/
@@ -44,13 +47,15 @@ section{
 	border-radius:35px;/*arredondamos o botão*/
 	font-size:18px;/*aumentou o tamanho da fonte do botão*/
 	color:black;/*alterou a cor da fonte do botão*/
-	display: flex;
-	justify-content: center;
+	
 	margin: 0 auto;
 	padding: 8px 16px;
 	box-shadow: 0 0 15px 1px #F8FF6A, 
             	0 0 15px 3px #DFA819,
 				0 0 15px 5px red;
+				display: flex;
+  justify-content: center;
+  align-items: center;
 			
 	
 }
@@ -75,15 +80,15 @@ a{
 }
 
 #rodape{
-	align:center;
 	background-color:black;/*inserindo cor de fundo no rodapé*/
 	color:white;/*transformando a cor das letras em branco*/
 	display:grid;/*transformar o rodapé em uma grade (tabela)*/
-	grid-template-columns:20% 40%;/*dividindo em 2 colunas*/
+	grid-template-columns:14% 14%;/*dividindo em 2 colunas*/
 	grid-gap:5%;/*inserindo espaço entre as colunas*/
-	padding:16px 20%;/*preenchimento nos 4 lados do rodapé*/
-	font-size:15px;/*aumentando o tamanho da fonte*/
-    margin: 0 auto;
+	/*preenchimento nos 4 lados do rodapé*/
+	font-size:10px;/*aumentando o tamanho da fonte*/
+    justify-content: center;
+	align:center;
 }
 #rodape:hover{/*quando passar o mouse sobre o botão*/
 	background-color:#c6823a;/*trocar a cor de fundo para cinza escuro*/
@@ -92,5 +97,14 @@ a{
 #slider {
 	max-width: 400px;
     margin: 0 auto;
-    margin-bottom: 24px; 
+    margin-bottom: 30px; 
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+	
+  justify-content: center;
+  align-items: center;
 }
