@@ -47,21 +47,21 @@ section{
 	border-radius:35px;/*arredondamos o botão*/
 	font-size:18px;/*aumentou o tamanho da fonte do botão*/
 	color:black;/*alterou a cor da fonte do botão*/
-	
 	margin: 0 auto;
 	padding: 8px 16px;
 	box-shadow: 0 0 15px 1px #F8FF6A, 
             	0 0 15px 3px #DFA819,
 				0 0 15px 5px red;
-				display: flex;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	cursor: pointer;
 			
 	
 }
 
 .button:hover{/*quando passar o mouse sobre o botão*/
-	background-color:#b0b0b1;/*trocar a cor de fundo para cinza escuro*/
+	background-color:#dbdbdb;/*trocar a cor de fundo para cinza escuro*/
 }
 
 a{
